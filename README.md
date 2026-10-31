@@ -1,4 +1,4 @@
-# a2a2p-com
+# a2a2p
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,138 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-a2a2p-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://a2a2p.com/
+a2a2p is an open protocol and live decision layer that transforms physical ideas into reviewed requirements that suppliers can understand. It separates purpose from design, captures missing facts, and produces labeled estimates for supplier review. The platform offers a free, no‑account, no‑charge agent toolset, enabling deterministic engineering, safety checks, and supplier reliability while keeping estimates distinct from quotes.
+
+**Areas:** Physical · Manufacturing · Open-Protocol · AI · Supply-Chain
+
+## a2a2p on APIs.io
+
+Everything profiled for a2a2p is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/a2a2p-com/](https://apis.io/providers/a2a2p-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (19)
+
+- [a2a2p Beam Section API](https://apis.io/apis/a2a2p-com/a2a2p-com-beam-section-api/) — The Beam Section API from a2a2p — 4 operation(s) for beam section.
+- [a2a2p Co Invention API](https://apis.io/apis/a2a2p-com/a2a2p-com-co-invention-api/) — The Co Invention API from a2a2p — 3 operation(s) for co invention.
+- [a2a2p Domain Solutioning API](https://apis.io/apis/a2a2p-com/a2a2p-com-domain-solutioning-api/) — The Domain Solutioning API from a2a2p — 2 operation(s) for domain solutioning.
+- [a2a2p Evidence API](https://apis.io/apis/a2a2p-com/a2a2p-com-evidence-api/) — The Evidence API from a2a2p — 10 operation(s) for evidence.
+- [a2a2p Files API](https://apis.io/apis/a2a2p-com/a2a2p-com-files-api/) — The Files API from a2a2p — 1 operation(s) for files.
+- [a2a2p Material Evidence API](https://apis.io/apis/a2a2p-com/a2a2p-com-material-evidence-api/) — The Material Evidence API from a2a2p — 3 operation(s) for material evidence.
+- [a2a2p Orders API](https://apis.io/apis/a2a2p-com/a2a2p-com-orders-api/) — The Orders API from a2a2p — 2 operation(s) for orders.
+- [a2a2p Profile API](https://apis.io/apis/a2a2p-com/a2a2p-com-profile-api/) — The Profile API from a2a2p — 20 operation(s) for profile.
+- [a2a2p Providers API](https://apis.io/apis/a2a2p-com/a2a2p-com-providers-api/) — The Providers API from a2a2p — 1 operation(s) for providers.
+- [a2a2p Requests API](https://apis.io/apis/a2a2p-com/a2a2p-com-requests-api/) — The Requests API from a2a2p — 2 operation(s) for requests.
+- [a2a2p Review API](https://apis.io/apis/a2a2p-com/a2a2p-com-review-api/) — The Review API from a2a2p — 1 operation(s) for review.
+- [a2a2p Schema API](https://apis.io/apis/a2a2p-com/a2a2p-com-schema-api/) — The Schema API from a2a2p — 5 operation(s) for schema.
+- [a2a2p Simulation Study API](https://apis.io/apis/a2a2p-com/a2a2p-com-simulation-study-api/) — The Simulation Study API from a2a2p — 5 operation(s) for simulation study.
+- [a2a2p Specification Exchange API](https://apis.io/apis/a2a2p-com/a2a2p-com-specification-exchange-api/) — The Specification Exchange API from a2a2p — 1 operation(s) for specification exchange.
+- [a2a2p Supplier Email Artifact API](https://apis.io/apis/a2a2p-com/a2a2p-com-supplier-email-artifact-api/) — The Supplier Email Artifact API from a2a2p — 1 operation(s) for supplier email artifact.
+- [a2a2p Supplier Fit API](https://apis.io/apis/a2a2p-com/a2a2p-com-supplier-fit-api/) — The Supplier Fit API from a2a2p — 1 operation(s) for supplier fit.
+- [a2a2p Supplier Package API](https://apis.io/apis/a2a2p-com/a2a2p-com-supplier-package-api/) — The Supplier Package API from a2a2p — 1 operation(s) for supplier package.
+- [a2a2p Supply API](https://apis.io/apis/a2a2p-com/a2a2p-com-supply-api/) — The Supply API from a2a2p — 1 operation(s) for supply.
+- [a2a2p Upload API](https://apis.io/apis/a2a2p-com/a2a2p-com-upload-api/) — The Upload API from a2a2p — 1 operation(s) for upload.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [PostApiBeamSectionDeriveRequest](https://apis.io/schemas/a2a2p-com/a2a2p-com-post-api-beam-section-derive-request/)
+- [PostApiBeamSectionExploreRequest](https://apis.io/schemas/a2a2p-com/a2a2p-com-post-api-beam-section-explore-request/)
+- [PostApiSimulationStudyFromDerivedBeamRequest](https://apis.io/schemas/a2a2p-com/a2a2p-com-post-api-simulation-study-from-derived-beam-request/)
+- [PostApiSimulationStudyFromReviewedBeamRequest](https://apis.io/schemas/a2a2p-com/a2a2p-com-post-api-simulation-study-from-reviewed-beam-request/)
+- [PostApiSimulationStudyPrepareRequest](https://apis.io/schemas/a2a2p-com/a2a2p-com-post-api-simulation-study-prepare-request/)
+- [PostApiSimulationStudyRunRequest](https://apis.io/schemas/a2a2p-com/a2a2p-com-post-api-simulation-study-run-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [A2A2P Com Context](https://apis.io/jsonld/a2a2p-com/a2a2p-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [a2a2p API Rules](https://apis.io/rules/a2a2p-com/a2a2p-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [A2A2P Com Authentication](https://apis.io/security/a2a2p-com/a2a2p-com-authentication/)
+- [A2A2P Com Domain Security](https://apis.io/security/a2a2p-com/a2a2p-com-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [A2A2P Com Scopes](https://apis.io/scopes/a2a2p-com/a2a2p-com-scopes/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://a2a2p.com/)
+- [Documentation](https://a2a2p.com/docs)
+- [API reference](https://a2a2p.com/spec)
+- [Sign up](https://a2a2p.com/first-exchange)
+- [Terms of service](https://a2a2p.com/terms)
+- [Privacy policy](https://a2a2p.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 43.9** — developing · rubric 0.25.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 70.0 |
+| Contract quality | 52.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 21.4 |
+| Access clarity | 34.2 |
+
+**Agent readiness 36.1** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 31.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/a2a2p-com/](https://apis.io/providers/a2a2p-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for a2a2p: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/a2a2p-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).

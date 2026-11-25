@@ -66,7 +66,7 @@
 
 a2a2p is an open protocol and live decision layer that transforms physical ideas into reviewed requirements that suppliers can understand. It separates purpose from design, captures missing facts, and produces labeled estimates for supplier review. The platform offers a free, no‑account, no‑charge agent toolset, enabling deterministic engineering, safety checks, and supplier reliability while keeping estimates distinct from quotes.
 
-**Areas:** Physical · Manufacturing · Open-Protocol · AI · Supply-Chain
+**Areas:** Physical · Manufacturing · Open Protocol · Artificial Intelligence · Supply Chain
 
 ## a2a2p on APIs.io
 
@@ -98,16 +98,30 @@ Everything profiled for a2a2p is published on APIs.io rather than in this reposi
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-#### JSON Schema (6)
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [a2a2p-com-mcp.yml](https://apis.io/servers/a2a2p-com/a2a2p-com-mcp-yml/)
+
+#### JSON Schema (14)
 
 The data models the API reads and writes.
 
 - [PostApiBeamSectionDeriveRequest](https://apis.io/schemas/a2a2p-com/a2a2p-com-post-api-beam-section-derive-request/)
 - [PostApiBeamSectionExploreRequest](https://apis.io/schemas/a2a2p-com/a2a2p-com-post-api-beam-section-explore-request/)
+- [PostApiCoInventionSessionsRequest](https://apis.io/schemas/a2a2p-com/a2a2p-com-post-api-co-invention-sessions-request/)
+- [PostApiCoInventionSessionsResponse](https://apis.io/schemas/a2a2p-com/a2a2p-com-post-api-co-invention-sessions-response/)
+- [PostApiDomainSolutioningValidateRequest](https://apis.io/schemas/a2a2p-com/a2a2p-com-post-api-domain-solutioning-validate-request/)
+- [PostApiReviewRequest](https://apis.io/schemas/a2a2p-com/a2a2p-com-post-api-review-request/)
 - [PostApiSimulationStudyFromDerivedBeamRequest](https://apis.io/schemas/a2a2p-com/a2a2p-com-post-api-simulation-study-from-derived-beam-request/)
 - [PostApiSimulationStudyFromReviewedBeamRequest](https://apis.io/schemas/a2a2p-com/a2a2p-com-post-api-simulation-study-from-reviewed-beam-request/)
 - [PostApiSimulationStudyPrepareRequest](https://apis.io/schemas/a2a2p-com/a2a2p-com-post-api-simulation-study-prepare-request/)
 - [PostApiSimulationStudyRunRequest](https://apis.io/schemas/a2a2p-com/a2a2p-com-post-api-simulation-study-run-request/)
+- [PostApiUploadRequest](https://apis.io/schemas/a2a2p-com/a2a2p-com-post-api-upload-request/)
+- [PostApiUploadResponse](https://apis.io/schemas/a2a2p-com/a2a2p-com-post-api-upload-response/)
+- [PostV2ApiFilesPublicfileidEstimateRequest](https://apis.io/schemas/a2a2p-com/a2a2p-com-post-v2-api-files-publicfileid-estimate-request/)
+- [PostV2ApiFilesPublicfileidEstimateResponse](https://apis.io/schemas/a2a2p-com/a2a2p-com-post-v2-api-files-publicfileid-estimate-response/)
 
 #### JSON-LD (1)
 
@@ -125,14 +139,14 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [A2A2P Com Authentication](https://apis.io/security/a2a2p-com/a2a2p-com-authentication/)
-- [A2A2P Com Domain Security](https://apis.io/security/a2a2p-com/a2a2p-com-domain-security/)
+- [a2a2p Authentication](https://apis.io/security/a2a2p-com/a2a2p-com-authentication/)
+- [a2a2p Domain Security](https://apis.io/security/a2a2p-com/a2a2p-com-domain-security/)
 
 #### OAuth scopes (1)
 
 The permissions the API asks for.
 
-- [A2A2P Com Scopes](https://apis.io/scopes/a2a2p-com/a2a2p-com-scopes/)
+- [a2a2p Scopes](https://apis.io/scopes/a2a2p-com/a2a2p-com-scopes/)
 
 ## Where to find this API
 
@@ -147,18 +161,18 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 43.9** — developing · rubric 0.25.0 · scored 2026-10-31
+**Kin Score 30.4** — thin · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 70.0 |
-| Contract quality | 52.2 |
-| Contract governance | 79.1 |
-| Operational transparency | 5.3 |
+| Discoverability | 76.7 |
+| Contract quality | 24.3 |
+| Contract governance | 22.0 |
+| Operational transparency | 4.8 |
 | Developer ergonomics | 21.4 |
-| Access clarity | 34.2 |
+| Access clarity | 40.4 |
 
-**Agent readiness 36.1** — agent-ready
+**Agent readiness 36.8** — agent-ready
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -174,7 +188,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Event Surface Described | — |
 | Agent Skills | — |
 | Well Known Catalog | — |
-| Consent Identity | — |
+| Consent Identity | signal |
 | Agent Card | — |
 | Dry Run Mode | — |
 | Delegated Identity | served (partial credit) |
@@ -183,8 +197,12 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 31.8** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 26.4** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/a2a2p-com/](https://apis.io/providers/a2a2p-com/).
 
